@@ -1,0 +1,225 @@
+ls -a
+cd
+ls 
+exit
+ls a-
+ls -a
+exit
+ls -a
+cd .config/
+ls -a
+cd i3/
+ls -a
+nvim config
+cd
+ls -a
+cd Downloads/
+cd ..
+cd Documents/
+ls -a
+mkdir wallpapers
+cd wallpapers/
+exit
+exit
+ls -a
+cd .config/i3/
+ls -a
+vim config
+nvim config
+nvim i3blocks.conf
+ls -a
+cd Documents/
+ls -a
+neofetch
+ls -a
+sudo reboot
+htop
+pacman -S htop
+sudo pacman -S htop
+sudo pacman -S alacritty
+ls -a
+exit
+alacritty
+cd ~/.config/i3/config
+cd ~/.config/i3/
+vim config
+nvim config
+cd
+sudo pacman -Syu nitrogen
+nitrogen
+nitro
+cd ~/.config/i3/
+nvim config
+sudo reboot
+picom
+sudo pacman -S picom
+cd ~/.config/i3/
+vim config
+nvim config
+ps
+ls -a
+cd .config/
+ls -a
+dpkg -L picom
+dpkg
+sudo pacman -S dpkg
+dpkg -L picom
+sudo pacman -R dpkg
+ls -a
+mkdir picom
+cd picom
+ls -a
+cp /etc/xdg/picom.conf ..
+ls -a
+cd ..
+ls -a
+rm picom.conf
+rm example.picom.conf
+cd picom/
+cp /etc/xdg/picom.conf .
+ls -a
+cat picom.conf
+vim picom.conf
+nvim picom.conf
+sudo reboot
+nvim picom.conf
+cd .config/picom/ ; nvim picom.conf
+nvim picom.conf
+cd ..
+ls -a
+cd i3
+ls -a
+nvim config
+htop
+neofetch
+ls -a
+neofetch
+ls -a
+exit
+cd .config/
+ls -a
+cd i3
+ls -a
+nvim config
+cd ..
+ls -a
+cd picom/
+ls -a
+nvim picom.conf
+cd /etc/X11/xorg.conf.d/
+ls -a
+nvim 00-keyboard.conf
+sudo nvim 00-keyboard.conf
+sudo reboot
+d
+a
+as
+he
+exot
+exit
+neofetch
+ls -a
+ce
+clear
+neofetch
+cd .config/nushell/
+ls -a
+nvim config.nu
+cd .config/nushell/ ; nvim config.nu
+ls -a
+cd .config/neofetch/
+ls -a
+cp /home/shuumo/Downloads/ozozfetch2.conf .
+ls -a
+mv config.conf config2.conf
+mv ozozfetch2.conf config.conf
+ls -a
+cp /home/shuumo/Downloads/simplefetch.conf .
+ls a-
+ls -a
+mv config.conf config3.conf
+mv simplefetch.conf config.conf
+sudo pacman -S nitch
+nvim config.conf
+cd .config/neofetch/ ; nvim config.conf
+ls -a
+cd .config/neofetch/ ; nvim config.conf
+ls -a
+neofetch
+sudo pacman -S spotify
+yay
+yay -S spotify
+spotify
+yay spotify
+yay -S spotify-edge
+gcc
+sudo pacman -S gcc
+gcc
+ls -a
+cd Desktop/
+ls -a
+mkdir folder
+cd folder/
+mkdir hello
+cd hello/
+touch hello.c
+nvim hello.c
+gcc -o helloworld hello.c
+./helloworld
+nvim hello.c
+gcc -o helloworld hello.c
+./helloworld
+nvim hello.c
+gcc -o helloworld hello.c
+./helloworld
+ls -a
+cd
+df -h
+sudo pacman -Syu
+yay proton
+protonvpn
+yay proton
+sudo yay -S protonvpn
+yay -S protonvpn
+yay -Syu protonvpn
+sudo poweroff
+ls -a
+cd Desktop/
+ls -a
+cd folder/
+ls -a
+ilearn
+echo hello
+echo $env.DEBUGINFODURLS
+echo $env.DEBUGINFOD_URLS
+valgrind
+pacman -Syu valgrind
+sudo pacman -Syu valgrind
+valgrind
+ls -a
+cd Desktop/folder/
+ls -a
+cd hello/
+ls -a
+valgrind helloworld
+valgrind --leak-check=yes ./hellowold
+valgrind --leak-check=yes ./helloworld
+ilearn
+ls -a
+cd Desktop/
+ls -a
+cd folder/hello/
+ls -a
+nvim hello.c
+./helloworld
+rn helloworld
+rm helloworld
+gcc -o helloworld hello.c
+./helloworld
+nvim hello.c
+cd .config
+open .
+thundar .
+xdg-open .
+xbacklight
+sudo pacman -Syu xbacklight
