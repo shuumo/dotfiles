@@ -1,0 +1,87 @@
+{
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "margin-bottom": -16,
+    "height": 25,
+    "modules-left": [
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "cpu",
+        "battery",
+        "clock",
+    ],
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 45,
+        "rewrite": {
+            "": "shuumo",
+            "~": "Terminal"
+        },
+        "separate-outputs": true,
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            //"active": "👽", "1": "🍃", "2": "🔥", "3": "🌊", "4": "💨", "5": "🪐", "6": "🍇", "7": "💊", "8": "🥃", "9": "🧠", "10": "💎",
+            "active": " ", "1": "一", "2": "二", "3": "三", "4": "四", "5": "五", "6": "六", "7": "七", "8": "八", "9": "九", "10": " ",
+            //"active": " ", "1": " ", "2": " ", "3": " ", "4": " ", "5": " ", "6": " ", "7": " ", "8": " ", "9": " ", "10": " ",
+ 
+        },
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            //"*": 4, // 5 workspaces by default on every monitor
+            //"HDMI-A-1": 3 // but only three on HDMI-A-1
+        },
+    },
+    "clock": {
+        "format": "{:%I:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": false,
+        "on-click": "kitty htop"
+    },
+    "memory": {
+        "format": "{}%  "
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": [
+            ""
+        ]
+    },
+      "network": {
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "{cidr} 󰈁",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": " ⚠ ",
+        "format-alt": "󱇲  {ifname}: {ipaddr}/{cidr}",
+        "on-click-right": "nm-connection-editor"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-icons": {
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+}
